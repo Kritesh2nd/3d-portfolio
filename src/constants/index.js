@@ -12,6 +12,8 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    mysql,
+    java,
     git,
     figma,
     docker,
@@ -23,6 +25,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    merchwebstore,
+    encrypter,
+    todolist,
   } from "../assets";
   
   export const navLinks = [
@@ -46,16 +51,16 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Web Designer",
+      icon: creator,
+    },
+    {
+      title: "React Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -72,10 +77,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -88,13 +93,21 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "MySQL",
+      icon: mysql,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Java",
+      icon: java,
     },
     {
       name: "Three JS",
@@ -108,10 +121,10 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -198,68 +211,130 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Merchandise Web Store",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Transformed my passion into a digital reality with a Game Merchandise Web App project. A user-friendly hub for gaming gear, designed and coded with dedication.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "java",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "mysql",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: merchwebstore,
+      source_code_link: "https://github.com/Kritesh2nd/game-merch-web-store",
+      live_demo_link: "",
     },
     {
-      name: "Job IT",
+      name: "Encrypter and Decrypter",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Crafted a Simple Encryption Web Project, fortifying data security with user-friendly encryption techniques. Users can encrypt and decrypt a text message with a password.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: encrypter,
+      source_code_link: "https://github.com/Kritesh2nd/encrypter",
+      live_demo_link: "https://kritesh2nd.github.io/encrypter/",
     },
+    {
+      name: "Todo-List",
+      description:
+        "My Todo List React Project is a productivity powerhouse, allowing users to organize tasks efficiently with an intuitive interface, making daily life more organized and stress-free.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: todolist,
+      source_code_link: "https://github.com/Kritesh2nd/todo-list",
+      live_demo_link: "https://kritesh2nd.github.io/todo-list/",
+    },
+    // {
+    //   name: "Car Rent",
+    //   description:
+    //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "mongodb",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: carrent,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Job IT",
+    //   description:
+    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "restapi",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "scss",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: jobit,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

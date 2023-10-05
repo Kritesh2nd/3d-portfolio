@@ -41,7 +41,7 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dicta hic cum iste in libero totam est minus atque id facilis tempore fugiat recusandae, expedita itaque. Facilis non rerum asperiores doloribus maiores nobis ipsa sequi quia quasi nam earum quibusdam est accusamus quod ducimus ea tempore excepturi reprehenderit accusantium quo, voluptatem eveniet consequatur laboriosam. Ullam nam earum vitae nemo et deserunt vel reiciendis, fugit asperiores perspiciatis modi suscipit, voluptate omnis magni esse architecto sapiente ducimus eum maiores ipsa atque nesciunt.
+        I'm a skilled software developer with experience in JavaScript, React and Java. I also have experience in web designing using Figma. I'm a quick learner and enthusiastic about creating efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring ideas into the life!
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {
